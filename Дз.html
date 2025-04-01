@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ДЗ приоритетность</title>
+  </head>
+  <body>
+    <style>
+      div {
+        background: lightgreen !important;
+      }
+
+      .text {
+        background: gold;
+      }
+
+      h1 {
+        background: blue !important;
+      }
+
+      /*Не удаляя код выше, переопределите стили - цвет
+		 фона элементов на любой другой*/
+      /*Ваш код ниже*/
+      div {
+        background-color: tomato !important;
+      }
+
+      .text {
+        background-color: tomato;
+      }
+
+      h1 {
+        background-color: tomato !important;
+      }
+
+      .task__three {
+        background-color: rgb(189, 189, 189);
+        padding: 5px;
+      }
+      .task__three i {
+        font-size: 24px;
+      }
+      .task__three_primary-color {
+        color: gold;
+      }
+    </style>
+
+    <div class="block1">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    </div>
+    <br />
+    <p class="text">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex illo non
+      ratione vitae dolorem earum magnam, minima itaque! Nam, voluptatem ex
+      delectus architecto. Vero ipsa, ratione dicta praesentium, quibusdam iure.
+    </p>
+    <h1 class="main-title"><span>Main </span>title</h1>
+    <br />
+    <span class="task__three">
+      <b><i class="task__three_primary-color">IT</i><i> VDN</i></b>
+    </span>
+    <div
+      class="task__four"
+      style="
+        background-color: white !important;
+        width: 80%;
+        padding: 10px;
+        margin-inline: auto;
+      "
+    >
+      <p>HTML</p>
+      <p style="background-color: green; color: white">90%</p>
+      <p>CSS</p>
+      <p style="background-color: aqua">70%</p>
+      <p>JS</p>
+      <p style="background-color: gold; color: red">20%</p>
+    </div>
+    <div
+      class="task__five"
+      style="
+        width: 200px;
+        height: 200px;
+        background-color: lightgrey !important;
+      "
+    ></div>
+    <section class="task__six">
+      <ul style="list-style: none; box-sizing: border-box">
+        <li style="width: 60px; height: 60px; background-color: blue">
+          <img
+            src="./images/facebook.png"
+            alt="facebook"
+            style="transform: translate(44%, 38%)"
+          />
+        </li>
+        <li style="width: 60px; height: 60px; background-color: pink">
+          <img
+            src="./images/instagram.png"
+            alt="instagram"
+            style="transform: translate(44%, 38%)"
+          />
+        </li>
+        <li style="width: 60px; height: 60px; background-color: aqua">
+          <img
+            src="./images/twitter.png"
+            alt="twitter"
+            style="transform: translate(44%, 38%)"
+          />
+        </li>
+        <li style="width: 60px; height: 60px; background-color: red">
+          <img
+            src="./images/-youtube.png"
+            alt="youtube"
+            style="transform: translate(44%, 38%)"
+          />
+        </li>
+      </ul>
+    </section>
+    <section class="task__seven" style="background-color: lightgrey">
+      <div
+        style="background-color: white !important; padding: 10px; color: white"
+      >
+        <p style="background-color: rgb(107, 216, 107); padding: 15px">
+          Успех! данние успешно сохраненни
+        </p>
+        <p style="background-color: blue; padding: 15px">
+          Информация! данние можно редактировать
+        </p>
+        <p style="background-color: gold; padding: 15px">
+          Предупреждение! данние не сохраненни
+        </p>
+        <p style="background-color: red; padding: 15px">
+          Опасно! данние будут удалени на всегда
+        </p>
+      </div>
+    </section>
+    <section class="task__eight" style="background-color: lightgrey">
+      <div style="background-color: white !important; padding: 10px">
+        <p
+          style="
+            background-color: rgb(107, 216, 107);
+            padding: 15px;
+            border-left: 3px solid rgb(5, 157, 5);
+          "
+        >
+          Успех! данние успешно сохраненни
+        </p>
+        <p
+          style="
+            background-color: aqua;
+            padding: 15px;
+            border-left: 3px solid blue;
+          "
+        >
+          Информация! данние можно редактировать
+        </p>
+        <p
+          style="
+            background-color: yellow;
+            padding: 15px;
+            border-left: 3px solid gold;
+          "
+        >
+          Предупреждение! данние не сохраненни
+        </p>
+        <p
+          style="
+            background-color: pink;
+            padding: 15px;
+            border-left: 3px solid red;
+          "
+        >
+          Опасно! данние будут удалени на всегда
+        </p>
+      </div>
+    </section>
+    <section class="task__nine" style="background-color: grey">
+      <p style="background-color: green; padding: 15px; margin: 0">Главная</p>
+      <ul style="list-style: none; padding-left: 0; margin: 0">
+        <li style="padding: 15px"><a href="#">Пункт 1</a></li>
+        <li style="padding: 15px"><a href="#">Пункт 2</a></li>
+        <li style="padding: 15px"><a href="#">Пункт 3</a></li>
+        <li style="padding: 15px"><a href="#">Пункт 4</a></li>
+      </ul>
+    </section>
+    <section
+      class="task__ten"
+      style="
+        background-color: rgb(200, 199, 199);
+        box-sizing: border-box;
+        margin: 15px 0;
+      "
+    >
+      <ul style="list-style: none; padding-left: 0; margin: 0">
+        <li style="padding: 10px; border: 1px solid grey">Пункт 1</li>
+        <li style="padding: 10px; border: 1px solid grey">Пункт 2</li>
+        <li style="padding: 10px; border: 1px solid grey">Пункт 3</li>
+        <li style="padding: 10px; border: 1px solid grey">Пункт 4</li>
+        <li style="padding: 10px; border: 1px solid grey">Пункт 5</li>
+      </ul>
+    </section>
+    <section
+      class="task__eleven"
+      style="
+        background-color: rgb(200, 199, 199);
+        box-sizing: border-box;
+        padding: 20px 15px 10px;
+      "
+    >
+      <h2>Заголовок</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum nisi nobis
+        modi odit nesciunt a, ab amet inventore! Quibusdam suscipit corrupti non
+        quam similique ullam ab rerum ratione ut voluptas!
+      </p>
+      <button
+        type="button"
+        style="
+          display: block;
+          background-color: grey;
+          color: white;
+          border: none;
+          padding: 10px;
+          cursor: pointer;
+        "
+      >
+        Перевод
+      </button>
+    </section>
+  </body>
+</html>
